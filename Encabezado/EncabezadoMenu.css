@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+header{
+
+	width: 100%;
+	background: #4E94AB;
+
+	background-image: url(promo.jpg);
+	background-size: 100% 100%;
+
+
+
+}
+
+.menu ul {
+
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+.menu li hover{
+background: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+
+
+}
+
+.menu ul img{
+	margin-right: 1px;
+	margin: 0%;
+	display: inline-block;
+}
+
+.menu li{
+	margin: 2%;
+	border-right: 1px solid #fff;
+}
